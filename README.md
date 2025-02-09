@@ -2,10 +2,13 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=RipudamanBansal&color=blue)
 
-## 🐍 Contribution Snake  
-![Snake Game](https://raw.githubusercontent.com/RipudamanBansal/RipudamanBansal/output/github-contribution-grid-snake.svg)
-
-![Snake GIF](https://raw.githubusercontent.com/RipudamanBansal/RipudamanBansal/output/github-contribution-grid-snake.gif)
+<div align="center">
+  <h2>🐍 My Contributions. Hisss!! 🐍</h2>
+  <br>
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/RipudamanBansal/RipudamanBansal/output/github-contribution-grid-snake.svg" />
+  
+  <br/><br/><br/>
+</div>
 
 ## 📊 GitHub Stats  
 <div align="center">
