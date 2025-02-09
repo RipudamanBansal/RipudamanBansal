@@ -9,14 +9,15 @@
   
   <br/><br/><br/>
 </div>
-
-## 📊 GitHub Stats  
+  
 <div align="center">
+  <h2>📊 GitHub Stats 📊</h2>
   <img src="https://github-readme-stats.vercel.app/api?username=RipudamanBansal&show_icons=true&theme=dark" height="180px"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=RipudamanBansal&theme=dark" height="180px"/>
 </div>
 
 ## 🏆 GitHub Achievements  
+<h2 align="center>🏆 GitHub Achievements 🏆</h2>
 ![Trophies](https://github-profile-trophy.vercel.app/?username=RipudamanBansal&theme=darkhub&margin-w=10&row=1)
 
 ## 🔥 Languages & Tools  
