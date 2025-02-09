@@ -13,7 +13,7 @@
 <div align="center">
   <h2>📊 GitHub Stats 📊</h2>
   <img src="https://github-readme-stats.vercel.app/api?username=RipudamanBansal&show_icons=true&theme=dark" height="180px"/>
-  <br>
+  <br> <br>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=RipudamanBansal&theme=dark" height="180px"/>
 </div>
 
@@ -29,7 +29,5 @@
 <h2 align="center">🔗 Connect with Me 🔗</h2>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/RipudamanBansal)  
-
-<br>
 
 [![GitHub](https://img.shields.io/badge/GitHub-black?style=flat&logo=github)](https://github.com/RipudamanBansal)
