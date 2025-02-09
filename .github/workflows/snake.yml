@@ -1,4 +1,4 @@
-name: Generate Snake Contribution Grid
+name: Generate Snake
 
 on:
   schedule:
@@ -11,36 +11,21 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Clone repository
-        uses: actions/checkout@v4  # Updated to latest version
+      - name: Clone repo
+        uses: actions/checkout@v3
 
-      - name: Generate the snake animation in './dist/'
+      - name: Generate the snake files in './dist/'
         uses: Platane/snk@v3
         id: snake-gif
         with:
-          github_user_name: RipudamanBansal  # Your GitHub username
+          github_user_name: RipudamanBansal
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-          animation_duration: 8000  # Speed of the animation (milliseconds)
+            dist/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdf,#64a1f4,#4b91f1,#3c7dd9
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4  # Updated version
-        with:
-          name: snake
-          path: dist/
-
-      - name: Commit and Push to GitHub
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add dist/*
-          git commit -m "Updated snake contribution animation"
-          git push
-        continue-on-error: true  # Prevents workflow failure if nothing changes
-
-env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Show build status
+        run: ls -l ./dist
