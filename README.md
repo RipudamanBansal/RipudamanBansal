@@ -17,16 +17,19 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=RipudamanBansal&theme=dark" height="180px"/>
 </div>
 
-## 🏆 GitHub Achievements
-
 <h2 align="center">🏆 GitHub Achievements 🏆</h2>
+
 ![Trophies](https://github-profile-trophy.vercel.app/?username=RipudamanBansal&theme=darkhub&margin-w=10&row=1)
 
-## 🔥 Languages & Tools
+
+<h2 align="center">🔥 Languages & Tools 🔥</h2>
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=RipudamanBansal&layout=compact&theme=dark)
 
-### 🔗 Connect with Me
+<h2 align="center">🔗 Connect with Me 🔗</h2>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/RipudamanBansal)  
+
+<br>
+
 [![GitHub](https://img.shields.io/badge/GitHub-black?style=flat&logo=github)](https://github.com/RipudamanBansal)
